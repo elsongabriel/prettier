@@ -592,7 +592,7 @@ function ensureAllCommentsPrinted(astComments) {
 
   for (const comment of astComments) {
     if (!comment.printed) {
-      console.log('Comment "' + comment.value.trim() + '" was not printed.');
+      console.log(' Comment "' + comment.value.trim() + '" was not printed.');
     }
     delete comment.printed;
   }
