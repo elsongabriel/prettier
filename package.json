@@ -1,11 +1,12 @@
 {
   "name": "@elsongabriel/prettier",
-  "version": "2.9.0-dev",
+  "version": "1.0.0",
   "description": "Prettier is an opinionated code formatter",
   "bin": "./bin/prettier.js",
-  "repository": "prettier/prettier",
-  "funding": "https://github.com/prettier/prettier?sponsor=1",
-  "homepage": "https://prettier.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elsongabriel/prettier.git"
+  },
   "author": "James Long",
   "license": "MIT",
   "main": "./index.js",
